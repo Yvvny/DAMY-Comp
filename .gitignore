@@ -1,0 +1,45 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# build artifacts
+build/
+dist/
+
+# secrets
+.env
+.env.*
+folder_manager/photodeck_upload/.env
+
+dist/DAMYComp/credentials.json
+dist/DAMYComp/token.json
+# folder_manager\calendar_import_v3\token.json
+# folder_manager\calendar_import_v3\token_test.json
+# folder_manager\calendar_import_v3\credentials.json
+
+# temp modules (local-only; remove when no longer needed)
+PhotoDeck Upload V2/
+Proof Sorter DAMY/
+
+# local runtime/temp
+tmp_qr_live_check/
+tmp_qr_password_check/
+
+# local tokens/secrets
+**/token.json
+**/token_test.json
+**/credentials.json
+
+envsetting.md
+info.txt
+
+# local machine files
+.codex
+.packvenv/
+*.lnk
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.git-worktree-link.bak
