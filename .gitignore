@@ -1,0 +1,28 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# build artifacts
+build/
+dist/
+
+# local runtime/temp
+tmp_qr_live_check/
+tmp_qr_password_check/
+
+# local tokens/secrets
+**/token.json
+**/token_test.json
+**/credentials.json
+
+# local machine files
+.codex
+.packvenv/
+*.lnk
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+envsetting.md
+info.txt
